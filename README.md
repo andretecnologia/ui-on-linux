@@ -30,6 +30,8 @@ git config --global user.name andretecnologia
 
 git config --global user.email andre@andretecnologia.com.br
 
+sudo npm install -g npm@7.19.1
+
 ```
 
 _se necessario desabilitar ppa in other software_
