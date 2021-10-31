@@ -10,13 +10,14 @@ sudo apt-get install curl
 
 sudo apt update
 
+__Conferir essa linha se nao antes pula para a seção II__
 curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash -
 
-sudo apt-get update
+~sudo apt-get update~
 
-sudo apt-get install nodejs
+~sudo apt-get install nodejs~
 
-node --version
+~node --version~
 
 sudo apt-get install npm
 
@@ -42,7 +43,11 @@ _se o node nao for instalado tentar abaixo_
 
 sudo wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.0/install.sh | bash
 
-nvm install node
+source ~/.nvm/nvm.sh
+
+~nvm install node~
+
+nvm install 16.13.0
 
 sudo apt update
 
