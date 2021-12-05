@@ -67,3 +67,9 @@ wget https://az764295.vo.msecnd.net/stable/507ce72a4466fbb27b715c3722558bb15afa9
 
 sudo dpkg -i code_1.57.1-1623937013_amd64.deb
 ```
+
+videos no firefox:  
+
+```
+sudo apt install ffmpeg
+```
